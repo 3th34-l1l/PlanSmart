@@ -31,7 +31,7 @@ app.post("/api/upload", upload.single("media"), (req, res) => {
 });
 
 // Route imports
-const guestSpeakerRoutes = require('./routes/GuestSpeakerRoutes');
+//const guestSpeakerRoutes = require('./routes/GuestSpeakerRoutes');
 const vendorRoutes = require('./routes/vendorRoutes');
 const transportationProviderRoutes = require('./routes/transportationProviderRoutes');
 const portfolioRoutes = require('./routes/PortfolioRoutes');
@@ -40,7 +40,7 @@ const bookingRoutes = require('./routes/booking');
 const registerRoutes = require('./routes/register');
 
 // API route usage
-app.use('/api/guest-speakers', guestSpeakerRoutes);
+//app.use('/api/guest-speakers', guestSpeakerRoutes);
 app.use('/api/vendors', vendorRoutes);
 app.use('/api/transportation-providers', transportationProviderRoutes);
 app.use('/api/portfolio', portfolioRoutes);
